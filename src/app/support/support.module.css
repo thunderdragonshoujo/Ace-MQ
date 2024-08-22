@@ -1,0 +1,275 @@
+.header {
+  justify-content: center;
+  align-items: center;
+  width: 99vw;
+  height: 50vw;
+  position: absolute;
+  padding-top: 10vw;
+}
+
+.line1 {
+  color: white;
+  font-size: 1.5vw;
+  font-weight: 300;
+  line-height: 2.5vw;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.head1 {
+  font-size: 5vw;
+  font-weight: 700;
+}
+
+.normal {
+  font-weight: 300;
+}
+
+.containerImg {
+  color: transparent;
+
+  width: 80vw;
+  height: auto;
+  position: relative;
+  z-index: 11;
+  align-self: center;
+}
+
+.containerBgImg {
+  color: transparent;
+  width: 100vw;
+  height: 37.5vw;
+  position: absolute;
+  top: 0;
+}
+
+/* Primary */
+
+.Maindiv {
+  display: flex;
+  flex-direction: column;
+  width: 99vw;
+}
+.MainHeading {
+  font-size: var(--MainHeading);
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 38vw;
+}
+.subHead {
+  font-size: 1.2vw;
+  font-weight: normal;
+}
+
+.HeadBackImg {
+  width: 99vw;
+  height: 38vw;
+}
+.shadow {
+  width: 99vw;
+  height: 38vw;
+  background-color: wheat;
+  position: absolute;
+  mix-blend-mode: multiply;
+}
+
+.text1 {
+  font-size: 0.9vw;
+  font-weight: 200;
+  line-height: 1.8vw;
+  text-align: center;
+  margin-top: 5vw;
+}
+.service {
+  font-size: var(--section-heading);
+  font-weight: bold;
+}
+
+.assessment {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  align-self: center;
+  margin-top: 5vw;
+}
+
+.supportive {
+  align-items: center;
+  width: 68vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2vw;
+  margin-left: 20vw;
+}
+
+.commercial {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10vw;
+  margin-top: 5vw;
+  margin-right: 2vw;
+}
+
+.elevate {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lgText {
+  font-size: var(--lg-text);
+  color: white;
+  line-height: 2vw;
+  font-weight: lighter;
+}
+
+.heading2 {
+  font-size: var(--section-heading2);
+  font-weight: bold;
+  color: #86888b;
+}
+.heading3 {
+  font-size: var(--section-heading3);
+  font-weight: bold;
+  color: #86888b;
+}
+.contentText {
+  font-size: 0.68vw;
+  line-height: 1.2vw;
+}
+
+.supCard {
+  width: 70vw;
+  height: auto;
+  border: 0.1vw solid var(--primary-color);
+  border-radius: 1vw;
+  display: flex;
+  gap: 2vw;
+  position: relative;
+}
+
+.cardImg {
+  color: transparent;
+  top: -1vw;
+  width: 30vw;
+  height: auto;
+  position: absolute;
+}
+.btnCard {
+  background-color: #232323;
+  border-radius: 0.5vw;
+  border: 0.1vw solid var(--primary-color);
+  display: flex;
+  font-size: var(--content-text);
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+  height: 3vw;
+  margin-top: 1.5vw;
+}
+
+.cardContentContainer {
+  margin-left: 2vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+.techContainer {
+  display: flex;
+  width: 70vw;
+  justify-content: space-between;
+  margin-top: 2vw;
+}
+.rabbitImg {
+  width: 8vw;
+  height: auto;
+}
+.techHeading {
+  font-size: 1.6vw;
+  color: #fff;
+}
+.techImage {
+  width: 6.5vw;
+  height: auto;
+}
+
+@media screen and (max-width: 870px) {
+  .lgText {
+    font-size: 2.2vw;
+    /* color: white; */
+    line-height: 4vw;
+  }
+  .techContainer {
+    flex-wrap: wrap;
+  }
+  .rabbitImg {
+    width: 25vw;
+  }
+  .techHeading {
+    font-size: 3.4vw;
+    color: #fff;
+  }
+  .techImage {
+    width: 22vw;
+  }
+  .heading3 {
+    font-size: 4vw;
+    text-align: center;
+    margin-top: 2vw;
+  }
+  .contentText {
+    font-size: 2.5vw;
+    margin-top: 2vw;
+  }
+  .supCard {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin-bottom: 4vw;
+    border: 0.1vw solid var(--primary-color);
+    border-radius: 1vw;
+    height: auto;
+    align-items: center;
+    position: static;
+  }
+  .cardImg {
+    color: transparent;
+    width: 75vw;
+    height: auto;
+    position: static;
+  }
+  .cardContentContainer {
+    margin-left: 0vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btnCard {
+    background-color: #232323;
+    border-radius: 1vw;
+    border: 0.1vw solid var(--primary-color);
+    display: flex;
+    font-size: 2vw;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 8vw;
+    margin-top: 1.5vw;
+    margin-bottom: 2vw;
+  }
+
+  .service {
+    font-size: 3.5vw;
+  }
+}

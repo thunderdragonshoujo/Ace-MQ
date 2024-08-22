@@ -1,0 +1,144 @@
+.container {
+  z-index: 1000000000;
+  position: sticky;
+  top: 0;
+  height: 5.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  align-items: center;
+  width: 99vw;
+}
+
+.logo {
+  margin-left: 2vw;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.scrollActive {
+  /* display: none; */
+  visibility: hidden;
+  /* background-color: rgba(255, 255, 255, 0.9); Change the rgba value as per your requirement */
+}
+
+.mainLogo {
+  width: 9vw;
+  height: auto;
+  margin-right: 5vw;
+}
+.btnContainer {
+  display: flex;
+  gap: 2vw;
+  width: 20vw;
+}
+.navLink:hover {
+  color: var(--primary-color);
+  border-bottom: 0.1vw solid var(--primary-color);
+}
+
+.navActive {
+  color: var(--primary-color);
+  border-bottom: 0.1vw solid var(--primary-color);
+}
+
+.LinksContainer {
+  width: 70vw;
+  display: flex;
+  gap: 3vw;
+  align-items: center;
+}
+
+.btnSignup {
+  color: white;
+  border: 0.2vw solid var(--primary-color);
+
+  padding-top: 0.7vw;
+  padding-bottom: 0.7vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-radius: 0.7vw;
+  font-weight: bold;
+  font-size: 1vw;
+}
+
+.btnSignin {
+  color: black;
+  padding-top: 0.7vw;
+  padding-bottom: 0.7vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  background-color: white;
+  border-radius: 0.7vw;
+  font-weight: bold;
+}
+
+.navLink {
+  font-size: 1vw;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.modalContainer {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 70vw;
+  height: 100vh;
+  background-color: #161b22;
+  display: flex;
+  flex-direction: column;
+  gap: 7vw;
+  font-size: var(--content-text-mob);
+}
+
+.btnSignup1 {
+  color: white;
+  border: 0.2vw solid var(--primary-color);
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  border-radius: 0.7vw;
+  font-weight: bold;
+  font-size: 1vw;
+}
+@media screen and (max-width: 870px) {
+  .mobDisplay {
+    display: none;
+  }
+
+  .btnSignup1 {
+    font-size: var(--content-text-mob);
+    border-radius: 1.2vw;
+    height: 7vw;
+  }
+  .navLink {
+    font-size: 3vw;
+    margin-left: 5vw;
+  }
+
+  .btnContainer {
+    width: 30vw;
+  }
+
+  .mainLogo {
+    width: 20vw;
+  }
+  .btnSignup {
+    margin-left: -4vw;
+    font-size: var(--content-text-mob);
+    border-radius: 1.2vw;
+    height: 8vw;
+  }
+
+  .container {
+    width: 100vw;
+    height: 10vw;
+  }
+  .mobIcon {
+    width: 5vw;
+    height: auto;
+    margin-right: 6vw;
+  }
+}

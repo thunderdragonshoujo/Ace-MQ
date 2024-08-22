@@ -1,0 +1,138 @@
+/*  commons  */
+.MainView {
+  display: flex;
+  flex-direction: column;
+  width: 99vw;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  height: 42vw;
+}
+
+.Desc {
+  font-size: 1.2vw;
+  font-weight: 200;
+  line-height: 2.5vw;
+  text-align: center;
+  margin-top: 6vw;
+}
+.crypto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2vw;
+}
+.Fps {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 6vw;
+}
+
+.circlee {
+  width: 6.5vw;
+  height: 6.5vw;
+  border-radius: 5.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.circleMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.desc2 {
+  font-weight: bold;
+  font-size: 1.6vw;
+  color: #fff;
+  margin-right: 0.5vw;
+  line-height: 2.2vw;
+  text-align: center;
+}
+
+.message {
+  text-align: center;
+  font-size: 4vw;
+  font-weight: bold;
+  line-height: 4.8vw;
+  margin-top: 7vw;
+}
+.AdvDesc {
+  text-align: center;
+  margin-top: 1.5vw;
+  font-size: 1.1vw;
+  font-weight: 300;
+  line-height: 2vw;
+}
+.circleMain1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.circlee1 {
+  width: 7.5vw;
+  height: 7.5vw;
+  border-radius: 5.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+@media screen and (max-width: 870px) {
+  .Desc {
+    font-size: 2.5vw;
+    width: 80vw;
+    align-self: center;
+    line-height: 4vw;
+  }
+  .crypto {
+    margin-top: 5vw;
+  }
+  .message {
+    font-size: 6vw;
+    line-height: 6.8vw;
+  }
+
+  .AdvDesc {
+    font-size: 2.5vw;
+    line-height: 4vw;
+    width: 80vw;
+    align-self: center;
+    margin-top: 2vw;
+  }
+
+  .circlee1 {
+    width: 14vw;
+    height: 14vw;
+    border-radius: 8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .desc2 {
+    font-size: 3vw;
+    margin-top: 2vw;
+    line-height: 4vw;
+    height: 10vw;
+  }
+  .circlee {
+    width: 12vw;
+    height: 12vw;
+    border-radius: 10vw;
+  }
+}

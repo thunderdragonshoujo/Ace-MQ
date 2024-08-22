@@ -1,0 +1,33 @@
+
+
+/*  commons  */
+
+.header {
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    height: 50vw;
+    position: absolute;
+    /* background-color: rgba(0, 0, 0, 0.591); */
+    /* top: 20vw; */
+    padding-top: 12.3vw;
+  }
+
+.line1 {
+  color: white;
+  font-size: 1.2vw;
+  font-weight: 300;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.head1 {
+  font-size: 5vw;
+  font-weight: 700;
+}
+
+.normal {
+  font-weight: 300;
+}

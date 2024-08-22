@@ -1,0 +1,139 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  width: 99vw;
+  align-items: center;
+  background-color: #0d111c;
+  padding-top: 12vw;
+}
+.text2 {
+  font-size: var(--content-text);
+  line-height: 1.8vw;
+}
+
+.icon2 {
+  width: 2.5vw;
+  height: auto;
+}
+
+.icon {
+  width: 2.2vw;
+  height: auto;
+}
+.text1 {
+  font-size: var(--lg-text);
+}
+
+.widthMin {
+  width: 20vw;
+}
+
+.footerContent {
+  display: flex;
+  width: 80vw;
+  justify-content: space-between;
+  margin-top: 6vw;
+}
+
+.footerItem {
+  width: 20vw;
+}
+
+.copyWritsContainer {
+  height: 4vw;
+  width: 99vw;
+  background-color: #000;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 9vw;
+}
+.button {
+  border-width: 0.15vw;
+  border-color: var(--primary-color);
+  width: 8vw;
+  height: 3vw;
+  border-radius: 0.5vw;
+  font-weight: bold;
+  margin-top: 2vw;
+  font-size: var(--lg-text);
+  /* border: .15vw solid  ; */
+  /* border-image:linear-gradient(to right, #73317a, #72c1c1) ; */
+}
+
+.heading3 {
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+
+.inputContainer {
+  color: #000;
+  height: 2.8vw;
+  border-radius: 0.5vw;
+  padding: 1vw;
+  margin-top: 2vw;
+}
+
+.inputContainer:active {
+  border: none;
+  outline: none;
+}
+
+.aceLogo {
+  width: 13vw;
+  height: auto;
+}
+@media screen and (max-width: 870px) {
+  .copyWritsContainer {
+    height: 10vw;
+  }
+  .aceLogo {
+    width: 25vw;
+    margin-bottom: 4vw;
+  }
+  .icon2 {
+    width: 7.5vw;
+  }
+
+  .icon {
+    height: auto;
+    width: 6vw;
+  }
+
+  .inputContainer {
+    height: 6vw;
+  }
+  .widthMin {
+    width: 100%;
+    /* background-color: aqua; */
+  }
+
+  .button {
+    font-size: var(--lg-text-mob);
+    width: 18vw;
+    height: 7vw;
+  }
+
+  .heading3 {
+    font-size: var(--section-heading3-mob);
+    margin-bottom: 4vw;
+    margin-top: 4vw;
+  }
+  .text1 {
+    font-size: 3vw;
+  }
+
+  .text2 {
+    font-size: 3vw;
+    line-height: 4.2vw;
+  }
+
+  .footerContent {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .footerItem {
+    width: 38vw;
+  }
+}

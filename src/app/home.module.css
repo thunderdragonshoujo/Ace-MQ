@@ -1,0 +1,785 @@
+:root .root-class {
+  --primary: #8fd5cc;
+  --secondary: #ff6600;
+}
+
+.contentContainer {
+  display: flex;
+  gap: 5.5vw;
+  margin-bottom: 1vw;
+}
+
+.contentContainer1 {
+  margin-bottom: 1vw;
+  display: flex;
+  gap: 3vw;
+  width: 90vw;
+  background-size: contain;
+  background-size: cover;
+  margin-top: 14vw;
+  /* height: 39vw; */
+  /* position: absolute; */
+}
+
+.imgBack {
+  width: 99vw;
+  height: auto;
+  position: relative;
+  /* top: -10vw; */
+  opacity: 0.4;
+}
+
+.heading {
+  font-size: 3vw;
+  font-weight: 600;
+}
+
+.h2 {
+  color: #9b86fe;
+  font-size: 5vw;
+  font-weight: bold;
+}
+
+.h3 {
+  font-size: 3vw;
+  font-weight: 600;
+}
+
+.btn {
+  color: white;
+  border: 0.15vw solid #8fd5cc;
+  padding-top: 0.7vw;
+  padding-bottom: 0.7vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-radius: 0.7vw;
+  font-weight: bold;
+  width: 10vw;
+  font-size: 1vw;
+}
+
+.btnSecondary {
+  color: white;
+  border: 0.1vw solid #ff6600;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 0.7vw;
+  padding-right: 0.7vw;
+  border-radius: 0.7vw;
+  font-weight: bold;
+  width: 13vw;
+  font-size: 1vw;
+  align-self: center;
+}
+
+.domainsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  margin-top: 3vw;
+  /* height: 60vw; */
+  /* background-color: red; */
+}
+
+.h1 {
+  font-size: 2vw;
+  font-weight: bold;
+  color: #86888b;
+  text-align: start;
+  width: 67vw;
+}
+
+.btnHeading {
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+.btnText {
+  font-size: 1vw;
+  color: white;
+  text-align: start;
+}
+
+.buttonContainer {
+  height: 15vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 4vw;
+}
+
+.servicesContainer {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: darkblue; */
+}
+
+.serviceItem {
+  gap: 0.5vw;
+  display: flex;
+  flex-direction: column;
+  width: 17vw;
+  height: 25vw;
+}
+
+.featuredItem {
+  background-color: #11151a;
+  width: 40vw;
+  gap: 0.5vw;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw;
+  border: 0.1vw solid #444444;
+  border-radius: 1vw;
+}
+
+.DomainLogoContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.domainButton {
+  border: 0.15vw dashed #b878ff;
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+  border-radius: 10vw;
+  justify-content: center;
+  width: 36vw;
+  height: 9vw;
+}
+.domainButton:hover {
+  background-color: #b878ff;
+}
+
+.BtnContentContainer {
+  flex-direction: column;
+  display: flex;
+  gap: 1vw;
+  align-items: flex-start;
+}
+
+.serviceHeading {
+  font-size: 1.3vw;
+  font-weight: bold;
+  color: white;
+}
+.serviceHeading2 {
+  font-size: 2vw;
+  font-weight: bold;
+  color: white;
+}
+
+.servieText {
+  font-size: 1vw;
+  color: white;
+  line-height: 1.8vw;
+}
+
+.margin1 {
+  margin-top: 3vw;
+}
+.margin2 {
+  margin-top: 6vw;
+}
+.devSection {
+  border-radius: 2vw;
+  margin-bottom: 3vw;
+  margin-top: 8vw;
+  background-color: black;
+  width: 79vw;
+  height: 20vw;
+  gap: 0.5vw;
+  display: flex;
+  padding: 2vw;
+  justify-content: center;
+  /* align-self: center; */
+}
+
+.devContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2vw;
+  width: 35vw;
+}
+
+.aceCardImg {
+  position: absolute;
+  left: -2vw;
+  bottom: -8vw;
+  width: 32vw;
+  height: auto;
+}
+
+.loopImg {
+  width: 29vw;
+  height: auto;
+}
+
+.cardImg {
+  width: 27vw;
+  height: auto;
+}
+
+.amongContainer {
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+  /* left: 3vw; */
+  margin-top: 5vw;
+  align-items: center;
+}
+
+.txtCenter {
+  text-align: center;
+}
+
+.sectionHeading {
+  font-size: 2vw;
+  font-weight: bold;
+}
+.numberStyles {
+  font-size: 6.5vw;
+  opacity: 0.12;
+  font-weight: bold;
+  /* color: #9B86FE; */
+  line-height: 4vw;
+}
+.bgFace {
+  color: transparent;
+  position: absolute;
+  right: -8.7vw;
+  width: 14vw;
+  height: auto;
+}
+
+.bgEarth {
+  position: absolute;
+  left: 0vw;
+  color:transparent;
+  filter: brightness(1.2);
+
+  width: 14vw;
+  height: auto;
+  margin-top: 14vw;
+  border-top-right-radius: 30rem;
+  border-bottom-right-radius: 20rem;
+
+}
+.amongImage {
+  width: 79vw;
+  height: auto;
+}
+
+.amongContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  align-items: center;
+}
+
+/* Commons */
+
+.head1 {
+  font-size: 7vw;
+  line-height: 4vw;
+  /* font-weight: 700; */
+  position: relative;
+  top: -1vw;
+  /* line-height: 6vw; */
+}
+.headL {
+  font-size: 7vw;
+  font-weight: 800;
+}
+
+.line1 {
+  color: white;
+  font-size: 0.9vw;
+  font-weight: 300;
+  line-height: 2vw;
+  margin-top: 0.7vw;
+  margin-bottom: 1.4vw;
+  width: 50vw;
+}
+
+.lineStyles {
+  color: transparent;
+  width: 2.7vw;
+  height: auto;
+  margin-left: 8vw;
+}
+
+.headerLine {
+  color: transparent;
+  width: 50vw;
+  height: auto;
+  position: relative;
+  top: -4.5vw;
+  right: -45vw;
+  /* background-color: red; */
+}
+
+.indImage {
+  width: 13vw;
+  height: auto;
+}
+
+.sectionHeadings {
+  color: white;
+  font-size: 3.7vw;
+  font-weight: bold;
+}
+
+.appImg {
+  width: 23vw;
+  height: auto;
+}
+
+.btnFeatures {
+  border: 0.1vw solid white;
+  border-radius: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14vw;
+  font-size: 1.3vw;
+  height: 2.7vw;
+}
+
+.featuredImage {
+  color: transparent;
+  width: 1.5vw;
+  height: auto;
+}
+
+.featuredHading {
+  font-size: 1.3vw;
+  font-weight: 600;
+  color: white;
+}
+
+.featuredText {
+  font-size: 1.1vw;
+  font-weight: normal;
+  color: white;
+}
+
+.featuredRight {
+  display: flex;
+  gap: 2vw;
+  background-color: #161b22;
+  border-radius: 2vw;
+  padding: 2vw;
+}
+
+.featuredInnerChild {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  margin-bottom: 2.5vw;
+  background-color: #0d1117;
+  border-radius: 2vw;
+  justify-content: center;
+  height: 100%;
+}
+
+.featuredListItem {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  margin-right: 0.7vw;
+  margin-left: 0.7vw;
+}
+
+.featuredInnerHeading {
+  font-size: 2vw;
+  font-weight: bold;
+  color: white;
+}
+
+.formulaTree {
+  color: transparent;
+  width: 70vw;
+  height: auto;
+}
+
+.technology {
+  line-height: 4.5vw;
+  font-weight: bold;
+  font-size: 3.05vw;
+}
+
+.addressCard {
+  display: flex;
+  gap: 2vw;
+  border: 0.1vw dashed #b862ff;
+  border-radius: 2vw;
+  justify-content: center;
+  height: 9vw;
+  align-items: center;
+}
+
+.addressItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+
+.contactImage {
+  border-radius: 1vw;
+  color: transparent;
+  width: 40vw;
+  height: auto;
+  position: absolute;
+  left: 0;
+  /* bottom: -14vw; */
+  margin-top: 8vw;
+}
+
+/* .btn:hover{
+
+} */
+.contactInput {
+  width: 14.5vw;
+  height: 3vw;
+  /* border-radius: 0.5vw; */
+  padding-left: 0.5vw;
+  color: black;
+  font-size: 1.2vw;
+  /* background-color: #EBEBEB; */
+  border-bottom: 0.1vw solid #c9c9c9;
+}
+
+.contactInput::placeholder {
+  font-size: 0.9vw;
+}
+
+.contactTextArea {
+  width: 30.3vw;
+  height: 12vw;
+  /* border-radius: 0.5vw; */
+  padding-left: 0.5vw;
+  color: black;
+  font-size: 1.2vw;
+  padding-top: 1vw;
+  border-bottom: 0.1vw solid #c9c9c9;
+}
+
+.contactTextArea::placeholder {
+  font-size: 0.9vw;
+}
+
+.contactText {
+  font-size: 0.95vw;
+  color: white;
+}
+
+.contactCheckBox {
+  width: 1vw;
+  height: auto;
+}
+
+.trustedCard {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  border: 0.1vw solid #ff660059;
+  border-radius: 2vw;
+  padding: 2vw;
+  margin-top: 14vw;
+  left: -7vw;
+  background: #11151a;
+}
+
+.contactCheckBox:checked {
+  background-color: #9b86fe; /* checked background color */
+  /* border-color: #007bff; checked border color */
+}
+
+/* Customize the appearance of unchecked state */
+.contactCheckBox:not(:checked) {
+  background-color: #000000; /* unchecked background color */
+  border-color: #9b86fe; /* unchecked border color */
+}
+
+.contactHeading {
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+
+.contactText {
+  font-size: 1vw;
+}
+
+.inputItem {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2vw;
+  background: white;
+  border-radius: 1vw;
+  padding: 2vw;
+  width: 34vw;
+  height: 24vw;
+}
+
+.card {
+  background-color: #ff6600;
+  width: 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4vw;
+  border-radius: 1vw;
+  font-size: 2vw;
+}
+
+.headinglg {
+  font-size: 3.7vw;
+  font-weight: bold;
+}
+
+.contactCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  color: black;
+  background-color: #8fd5cc;
+  border-radius: 2vw;
+  height: 5vw;
+  width: 15vw;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  align-items: center;
+}
+
+.imgMin {
+  width: 2vw;
+  height: auto;
+}
+
+.MqCont {
+  display: flex;
+  justify-content: space-between;
+}
+.MqDesc {
+  font-size: 1vw;
+  line-height: 1.8vw;
+  margin-top: 1vw;
+  width: 40vw;
+  font-weight: 200;
+}
+.ConsulMain {
+  display: "flex";
+  gap: 2vw;
+  flex-direction: row;
+}
+
+.StackImage {
+  width: 5vw;
+  height: auto;
+}
+.StackImage1 {
+  width: 3vw;
+  height: auto;
+}
+.techContainer {
+  display: flex;
+  width: 40vw;
+  justify-content: space-between;
+  margin-top: 2vw;
+}
+.rabbitImg {
+  width: 8vw;
+  height: auto;
+}
+.techHeading {
+  font-size: 1.6vw;
+  color: #fff;
+}
+.techImage {
+  width: 6.5vw;
+  height: auto;
+}
+
+.containerWidth {
+  width: 99vw;
+}
+
+.largeLogo {
+  margin-top: 2vw;
+}
+
+@media screen and (max-width: 870px) {
+  .numberStyles {
+    font-size: 11vw;
+    line-height: 13vw;
+  }
+  .containerWidth {
+    width: 100vw;
+  }
+  .largeLogo {
+    margin-top: 10vw;
+    margin-bottom: 4vw;
+  }
+  .lineStyles {
+    display: none;
+  }
+  .flexRowMin {
+    flex-direction: column;
+  }
+  .technology {
+  }
+  .imgBack {
+    height: 100vw;
+    width: 100vw;
+  }
+  .head1 {
+    font-size: 8vw;
+  }
+  .line1 {
+    font-size: 3vw;
+    line-height: 4vw;
+    width: 55vw;
+  }
+
+  .btn {
+    background: #081221;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    width: 20vw;
+    font-size: 2vw;
+  }
+  .trustedCard {
+    margin-top: 43vw;
+    position: none;
+  }
+  .headerLine {
+    width: 99vw;
+    top: -20vw;
+    right: -0vw;
+  }
+  .MqCont {
+    display: contents;
+  }
+  .sectionHeadings {
+    font-size: 8vw;
+    margin-top: 5vw;
+  }
+
+  .MqDesc {
+    font-size: 3vw;
+    line-height: 4vw;
+    margin-top: 4vw;
+    width: auto;
+  }
+  .serviceHeading2 {
+    font-size: 4vw;
+  }
+  .servieText {
+    font-size: 3vw;
+    line-height: 4vw;
+    margin-top: 4vw;
+  }
+  .ConsulMain {
+    display: block;
+  }
+  .featuredItem {
+    width: 80vw;
+  }
+  .loopImg {
+    width: 80vw;
+  }
+  .card {
+    width: 20vw;
+    height: 6vw;
+    font-size: 3vw;
+  }
+
+  .headinglg {
+    font-size: 7vw;
+  }
+
+  .servicesContainer {
+    display: block;
+  }
+  .serviceItem {
+    width: auto;
+    height: auto;
+    margin-top: 4vw;
+  }
+  .StackImage {
+    width: 15vw;
+    height: auto;
+  }
+  .StackImage1 {
+    width: 8vw;
+    height: auto;
+  }
+  .serviceHeading {
+    font-size: 4vw;
+    margin-top: 1.5vw;
+  }
+  .btnSecondary {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-size: 3vw;
+    width: 26vw;
+    margin-top: 6vw;
+    border-radius: 2vw;
+  }
+  .devContentContainer {
+    width: auto;
+  }
+  .cardImg {
+    width: 100vw;
+    height: auto;
+    margin-top: 2vw;
+  }
+  .formulaTree {
+    width: 80vw;
+    height: auto;
+    margin-top: 3vw;
+  }
+  .h3 {
+    font-size: 5vw;
+  }
+  .indImage {
+    width: 26vw;
+    height: auto;
+  }
+  .aceCardImg {
+    width: 80vw;
+    height: auto;
+    position: static;
+  }
+  .techContainer {
+    flex-wrap: wrap;
+    width: 80vw;
+  }
+  .rabbitImg {
+    width: 25vw;
+  }
+  .techHeading {
+    font-size: 3.4vw;
+  }
+  .techImage {
+    width: 22vw;
+  }
+}

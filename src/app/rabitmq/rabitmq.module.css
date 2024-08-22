@@ -1,0 +1,309 @@
+.header {
+  justify-content: center;
+  align-items: center;
+  width: 99vw;
+  height: 50vw;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.591);
+  padding-top: 10vw;
+}
+
+.trustedCard {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  border: 0.1vw solid #ff660059;
+  border-radius: 2vw;
+  padding: 2vw;
+  margin-top: 3vw;
+  /* left: -7vw; */
+  background: #11151a;
+  width: 70vw;
+}
+
+.line1 {
+  color: white;
+  font-size: 1.2vw;
+  font-weight: 300;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.head1 {
+  font-size: 5vw;
+  font-weight: 700;
+}
+
+.normal {
+  font-weight: 300;
+}
+.containerImg {
+  color: transparent;
+  width: 99vw;
+  height: auto;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerBgImg {
+  color: transparent;
+  width: 99vw;
+  height: 49.5vw;
+  position: absolute;
+  top: 0px;
+}
+.trust {
+  align-self: center;
+  display: flex;
+  margin-top: 55vw;
+  width: 70vw;
+}
+
+.setShadow {
+  box-shadow: 0px 1px 16px 2px rgba(251, 136, 23, 0.53);
+  -webkit-box-shadow: 0px 1px 16px 2px rgba(251, 136, 23, 0.53);
+  -moz-box-shadow: 0px 1px 16px 2px rgba(251, 136, 23, 0.53);
+}
+.among {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.5vw;
+  margin-top: 5vw;
+}
+.amogDesc {
+  text-align: center;
+  font-size: 0.9vw;
+}
+.circleMain1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.circlee1 {
+  width: 7.5vw;
+  height: 7.5vw;
+  border-radius: 5.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.capab {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.5vw;
+  margin-top: 5vw;
+}
+.Seam {
+  font-weight: bold;
+  font-size: 3vw;
+  line-height: 3.5vw;
+  margin-left: 1.7vw;
+}
+
+.ConfiMain {
+  display: flex;
+  width: 70vw;
+  justify-content: space-between;
+  align-self: center;
+  align-items: center;
+  margin-top: 3vw;
+}
+.circleMain {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+}
+.h3 {
+  font-size: 3vw;
+  font-weight: 600;
+}
+.circlee {
+  width: 6.5vw;
+  height: 6.5vw;
+  border-radius: 5.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.desc2 {
+  font-weight: bold;
+  font-size: 1.2vw;
+  color: #fff;
+  margin-right: 0.5vw;
+  line-height: 1.8vw;
+  text-align: center;
+}
+.deploy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.disaster {
+  display: flex;
+  align-items: flex-end;
+  width: 50vw;
+  gap: 2vw;
+  /* background-color: green; */
+}
+
+.FaultMain {
+  display: flex;
+  margin-top: -10vw;
+}
+.desc3 {
+  font-weight: bold;
+  font-size: 1.6vw;
+  color: #fff;
+  margin-right: 0.5vw;
+  line-height: 2.2vw;
+  text-align: center;
+}
+.mech {
+  display: flex;
+  width: 70vw;
+  justify-content: space-between;
+  align-self: center;
+  margin-top: 2vw;
+}
+.optimMain {
+  display: flex;
+  align-self: center;
+  width: 55vw;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10vw;
+  margin-top: 2vw;
+}
+
+.OverMain {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  width: 70vw;
+  margin-top: 7vw;
+  justify-content: space-between;
+}
+.button {
+  border-width: 0.1vw;
+  border-color: #8fd5cc;
+  width: 10vw;
+  height: 3vw;
+  border-radius: 0.5vw;
+  font-weight: bold;
+  margin-top: 3vw;
+  font-size: 0.8vw;
+  color: #fff;
+  align-self: center;
+}
+
+.mtop {
+  margin-top: 8vw;
+}
+@media screen and (max-width: 870px) {
+  .mtop {
+    margin-top: 0;
+  }
+  .among {
+    font-size: 6vw;
+    margin-top: 7vw;
+  }
+  .amogDesc {
+    font-size: 2.5vw;
+  }
+  .capab {
+    font-size: 6vw;
+  }
+  .ConfiMain {
+    display: block;
+  }
+  .Seam {
+    font-size: 5vw;
+    line-height: 7vw;
+  }
+  .mech {
+    display: block;
+  }
+  .optimMain {
+    width: 80vw;
+  }
+  .OverMain {
+    display: block;
+    margin-top: 10vw;
+  }
+  .button {
+    width: 25vw;
+    height: 8vw;
+    font-size: 3vw;
+    border-radius: 1vw;
+  }
+
+  .circleMain {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+  }
+
+  .h3 {
+    font-size: 5vw;
+  }
+
+  .trustedCard {
+    margin-top: 10vw;
+    position: none;
+  }
+
+  .circlee {
+    width: 13vw;
+    height: 13vw;
+    border-radius: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .circlee1 {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .desc2 {
+    font-weight: bold;
+    font-size: 4vw;
+    color: #fff;
+    margin-right: 0vw;
+    line-height: 4vw;
+    text-align: center;
+    margin-top: 2vw;
+  }
+  .desc3 {
+    font-weight: bold;
+    font-size: 2.6vw;
+    color: #fff;
+    margin-right: 0.5vw;
+    line-height: 3.2vw;
+    text-align: center;
+    margin-top: 2vw;
+  }
+}

@@ -1,0 +1,120 @@
+.Maindiv {
+  display: flex;
+  flex-direction: column;
+  width: 99vw;
+}
+.MainHeading {
+  font-size: var(--MainHeading);
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 38vw;
+}
+.subHead {
+  font-size: 1.2vw;
+  font-weight: normal;
+}
+
+.HeadBackImg {
+  width: 99vw;
+  height: 38vw;
+}
+.shadow {
+  width: 99vw;
+  height: 38vw;
+  background-color: wheat;
+  position: absolute;
+  mix-blend-mode: multiply;
+}
+
+.text1 {
+  font-size: 0.9vw;
+  font-weight: 200;
+  line-height: 1.8vw;
+  text-align: center;
+  margin-top: 5vw;
+}
+.service {
+  font-size: var(--section-heading);
+  font-weight: bold;
+}
+
+.assessment {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  align-self: center;
+  margin-top: 5vw;
+}
+
+.supportive {
+  align-items: center;
+  width: 68vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2vw;
+  margin-left: 20vw;
+}
+
+.commercial {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin-top: 8rem;
+}
+
+.elevate {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 870px) {
+  .MainHeading {
+    font-size: 8vw;
+    line-height: 9vw;
+  }
+  .subHead {
+    font-size: 2.2vw;
+  }
+  .text1 {
+    font-size: 2.2vw;
+    line-height: 3.5vw;
+    width: 80vw;
+    align-self: center;
+  }
+  .service {
+    font-size: 5vw;
+  }
+  .assessment {
+    display: block;
+    justify-content: space-between;
+    width: 80vw;
+    align-self: center;
+    margin-top: 5vw;
+  }
+  .supportive {
+    align-items: center;
+    width: 80vw;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5vw;
+    margin-left: 0vw;
+    align-self: center;
+  }
+  .commercial {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-top: 5vw;
+    margin-right: 0;
+    align-items: center;
+  }
+}

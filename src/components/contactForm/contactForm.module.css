@@ -1,0 +1,245 @@
+.devSection {
+  margin-bottom: 3vw;
+  background-color: black;
+  width: 80vw;
+  height: 20vw;
+  gap: 0.5vw;
+  display: flex;
+  border-radius: 20px;
+  padding: 2vw;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  align-self: center;
+}
+
+.devContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2vw;
+  width: 35vw;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  align-items: center;
+}
+
+.intrgrationCard {
+  font-weight: 700;
+  color: black;
+  background-image: linear-gradient(to bottom, #ff88c385, #9c86fe7f);
+  border-radius: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5vw;
+  width: 56vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+/* .contactCard1 {
+  display: flex;
+  font-size: 2vw;
+  color: rgb(255, 255, 255);
+  width: 15vw;
+} */
+.contactCard1 {
+  display: flex;
+  font-size: 2vw;
+  width: 16vw;
+  color: #000;
+  border-radius: 0.7vw;
+  height: 5vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  top: -2vw;
+  position: absolute;
+  z-index: 3;
+  left: 4vw;
+}
+
+.contactCard {
+  align-self: flex-end;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
+  color: black;
+  background-color: #8fd5cc;
+  border-radius: 10px;
+  height: 2.7vw;
+  width: 8vw;
+}
+.servieText {
+  font-size: 1vw;
+  color: white;
+  line-height: 1.8vw;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  align-items: center;
+}
+.imgMin {
+  width: 1vw;
+  height: auto;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2vw;
+  background: white;
+  border-radius: 1vw;
+  padding: 2vw;
+  width: 34vw;
+  height: 26vw;
+}
+.inputItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 0.1vw solid #c9c9c9;
+  gap: 1vw;
+}
+.contactInput {
+  width: 12.5vw;
+  height: 3vw;
+  /* border-radius: 0.5vw; */
+  padding-left: 0.5vw;
+  color: black;
+  outline: none;
+  font-size: 1vw;
+  /* background-color: #EBEBEB; */
+}
+
+.contactInput::placeholder {
+  font-size: 0.9vw;
+}
+
+.contactTextArea {
+  width: 28.3vw;
+  outline: none;
+  height: 12vw;
+  /* border-radius: 0.5vw; */
+  padding-left: 0.5vw;
+  color: black;
+  font-size: 1vw;
+  padding-top: 1vw;
+}
+
+@media screen and (max-width: 870px) {
+  .devSection {
+    flex-direction: column;
+    background: black;
+    height: auto;
+    padding-top: 7vw;
+    padding-bottom: 7vw;
+    width: 80vw;
+  }
+
+  /* .contactCard {
+    align-self: flex-end;
+    font-size: 3vw;
+    font-weight: bold;
+    height: 5vw;
+    width: 15vw;
+    color: white;
+  } */
+
+  .contactCard1 {
+    font-size: 5vw;
+    top: -8vw;
+    left: 0vw;
+  }
+
+  .servieText {
+    font-size: 2.8vw;
+    line-height: normal;
+  }
+
+  .devContentContainer {
+    width: 80vw;
+    gap: 2.5vw;
+  }
+
+  .formContainer {
+    width: 80vw;
+    height: 75vw;
+    margin-top: 4vw;
+  }
+  .contactInput::placeholder {
+    font-size: 2.8vw;
+  }
+  .contactInput {
+    font-size: 2.8vw;
+    width: 100%;
+    height: 6vw;
+    margin-top: 3vw;
+    padding-bottom: 2vw;
+  }
+
+  .contactTextArea {
+    margin-top: 3vw;
+    font-size: 2.8vw;
+    width: 100%;
+    height: 44vw;
+  }
+  .contactTextArea::placeholder {
+    font-size: 2.8vw;
+  }
+
+  .formButton {
+    align-self: flex-end;
+    font-size: 2.8vw;
+    font-weight: bold;
+    height: 8vw;
+    width: 21vw;
+    color: white;
+    background-color: rgb(255, 136, 195);
+  }
+
+  .imgMin {
+    width: 2.8vw;
+  }
+  .contactCard1 {
+    font-size: 5vw;
+  }
+
+  .btnContainer {
+    margin-bottom: 0;
+  }
+
+  .contactCard1 {
+    display: flex;
+    font-size: 4vw;
+    width: 30vw;
+    color: #000;
+    border-radius: 5vw;
+    height: 10vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: -5vw;
+  }
+  .contactCard {
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    color: black;
+    font-weight: bold;
+    background-color: #8fd5cc;
+    border-radius: 5vw;
+    height: 10vw;
+    width: 30vw;
+  }
+}

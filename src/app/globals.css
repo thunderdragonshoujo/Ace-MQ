@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+  font-family: 'Mona-Sans-Regular';
+  src: url('/fonts/Mona-Sans-Regular.woff2') format('woff'),
+      
+
+} */
+
+:root {
+  --primary-color: #8fd5cc;
+  --secondary-color: #ff88c3;
+  /*64px heading1 */
+  --section-heading: 3vw;
+  /* 96px MainHeading */
+  --MainHeading: 5vw;
+  /* 48 px heading2 */
+  --section-heading2: 2.5vw;
+  /* 32px heading3 */
+  --section-heading3: 2vw;
+  /* text2 16-18px*/
+  --content-text: 1vw;
+  /* text2 10-12px*/
+  --content-text2: 0.7vw;
+  /* text1 20px */
+  --lg-text: 1.2vw;
+  color: white;
+  /* --bg-transparent: linear-gradient(180deg, #4a2d4d, #171a1a, #171a1a); */
+  /* --bg-drawer: linear-gradient(180deg, #171a1a, #171a1a, #4a2d4d); */
+  /* --bg-dark: #281e09;
+  --bg-transparent: linear-gradient(#382b11, #382b11, #000);
+  --bg-drawer: linear-gradient(180deg, #000, #382b11);
+  --primary-color: #ffff;
+  --secondary-color: #dddd;
+  --button-color: #5e77fb;
+  --button-color: #876727f7;
+  --button-color: #CCAA6B;
+  --dark-color: #ccaa6b; */
+}
+
+body {
+  background-color: #040812;
+
+  font-family: "Mona-Sans-Regular", sans-serif;
+}
+
+/*  These are the scrollbar styles */
+body::-webkit-scrollbar {
+  width: 1vw; /* Adjust the width as needed */
+}
+
+body::-webkit-scrollbar-thumb {
+  /* border: 1px solid #fff; */
+  border-radius: 1vw;
+  background-color: #838383;
+  /* Change the color to your desired color */
+}
+body::-webkit-scrollbar-track {
+  background-color: #2d2d2d;
+}
+
+@layer utilities {
+  /* .text-balance {
+    text-wrap: balance;
+  } */
+}
