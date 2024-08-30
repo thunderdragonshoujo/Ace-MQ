@@ -102,18 +102,18 @@ const Navbar = () => {
         </Link>
         <Link
           className={`${styles.navLink}  ${styles.mobDisplay}  ${
-            pathName === "/MqServices" && styles.navActive
+            pathName === "/mq-services" && styles.navActive
           }`}
-          href={"/MqServices"}
+          href={"/mq-services"}
         >
           {" "}
           MQ Services
         </Link>
         <Link
           className={`${styles.navLink}  ${styles.mobDisplay}  ${
-            pathName === "/rabitmq" && styles.navActive
+            pathName === "/rabbitmq" && styles.navActive
           } `}
-          href="/rabitmq"
+          href="/rabbitmq"
         >
           RabitMQ
         </Link>
@@ -127,9 +127,9 @@ const Navbar = () => {
         </Link>
         <Link
           className={`${styles.navLink}  ${styles.mobDisplay}  ${
-            pathName === "/fips" && styles.navActive
+            pathName === "/fipsmq" && styles.navActive
           }`}
-          href="/fips"
+          href="/fipsmq"
         >
           FIPS
         </Link>
@@ -180,18 +180,18 @@ const Navbar = () => {
               <Link
                 onClick={handleClose}
                 className={`${styles.navLink}  ${
-                  pathName === "/rabitmq" && styles.navActive
+                  pathName === "/rabbitmq" && styles.navActive
                 }`}
-                href="/rabitmq"
+                href="/rabbitmq"
               >
                 RabitMQ
               </Link>
 
               <Link
                 onClick={handleClose}
-                href={"/fips"}
+                href={"/fipsmq"}
                 className={`${styles.navLink}  ${
-                  pathName === "/fips" && styles.navActive
+                  pathName === "/fipsmq" && styles.navActive
                 }`}
               >
                 FIPS
@@ -208,9 +208,9 @@ const Navbar = () => {
               <Link
                 onClick={handleClose}
                 className={`${styles.navLink}  ${
-                  pathName === "/MqServices" && styles.navActive
+                  pathName === "/mq-services" && styles.navActive
                 }`}
-                href="/MqServices"
+                href="/mq-services"
               >
                 MQ Services
               </Link>

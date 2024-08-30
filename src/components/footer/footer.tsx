@@ -167,7 +167,7 @@ const Footer = () => {
                 Home
               </div>
             </Link>
-            <Link href={'/rabitmq'}>
+            <Link href={'/rabbitmq'}>
               {' '}
               <div
                 className={styles.text2}
@@ -177,7 +177,7 @@ const Footer = () => {
                 RabbitMQ
               </div>
             </Link>
-            <Link href={'/fips'}>
+            <Link href={'/fipsmq'}>
               {' '}
               <div
                 className={styles.text2}
@@ -187,7 +187,7 @@ const Footer = () => {
                 FIPS
               </div>
             </Link>
-            <Link href={'/MqServices'}>
+            <Link href={'/mq-services'}>
               {' '}
               <div
                 className={styles.text2}
