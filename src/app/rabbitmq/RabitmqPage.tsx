@@ -29,7 +29,7 @@ const stories = [
     image: '/st5.png',
   },
 ];
-const Aboutpage = () => {
+const RabitmqPage = () => {
   const [button1, setbutton1] = useState(false);
   const [button2, setbutton2] = useState(false);
   const [button3, setbutton3] = useState(false);
@@ -2233,4 +2233,4 @@ const Aboutpage = () => {
     </div>
   );
 };
-export default Aboutpage;
+export default RabitmqPage;
