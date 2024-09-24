@@ -4,7 +4,7 @@ import styles from "./layout.module.css";
 import dynamic from "next/dynamic";
 import { Inter } from "next/font/google";
 
-const Footer = dynamic(() => import("@/components/footer/Footer"));
+const Footer = dynamic(() => import("@/components/footer/footer"));
 
 const inter = Inter({ subsets: ["latin"] });
 
